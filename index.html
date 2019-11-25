@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>Home - Brand</title>
+	<title>Mizpah Hub</title>
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="assets\css\master.css">
 </head>
 
-<body>
+<body onload="dynamicHome()">
 	<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
@@ -23,82 +23,54 @@
 			<button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
 			<div
 			class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="nav navbar-nav ml-auto">
-					<li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact us</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link" href="calendar.html">calendar</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link" href="login.html">The Hub</a></li>
-				</ul>
+			<ul class="nav navbar-nav ml-auto">
+				<li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
+				<li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact us</a></li>
+				<li class="nav-item" role="presentation"><a class="nav-link" href="calendar.html">calendar</a></li>
+				<li class="nav-item" role="presentation"><a class="nav-link" href="login.html">The Hub</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<header class="masthead" style="background-image:url('assets/img/IMG_20191015_122609.jpg');">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-lg-8 mx-auto">
+				<div class="site-heading">
+					<h1>Welcome To Mizpah</h1><span class="subheading"><br>Together we can dream, believe, lead and achieve<br></span></div>
+				</div>
 			</div>
 		</div>
-	</nav>
-	<header class="masthead" style="background-image:url('assets/img/IMG_20191015_122609.jpg');">
-		<div class="overlay"></div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div id="dynamicHome" class="col-md-10 col-lg-8">
+				<!-- Dynamic content here -->
+
+				<!-- Ends here -->
+			</div>
+		</div>
+	</div>
+	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-lg-8 mx-auto">
-					<div class="site-heading">
-						<h1>Welcome To Mizpah</h1><span class="subheading"><br>Together we can dream, believe, lead and achieve<br></span></div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-lg-8">
-					<div class="post-preview">
-						<a href="#">
-							<h2 class="post-title"><br>Due to the suspension of classes today, September 17, 2019<br></h2>
-							<h3 class="post-subtitle">Kindly settle your accounts on/before September 19, 2019<br><br></h3>
-						</a>
-						<p class="post-meta">Posted by&nbsp;<a href="#">Mizpah Admin on September 19, 2019</a></p>
-					</div>
-					<hr>
-					<div class="post-preview">
-						<a href="#">
-							<h2 class="post-title">EDUCATION is the most POWERFUL weapon which you can use to CHANGE THE WORLD</h2>
-						</a>
-						<p class="post-meta">Posted by&nbsp;<a href="#">Mizpah Admin on November 20, 2019</a></p>
-					</div>
-					<hr>
-					<div class="post-preview">
-						<a href="#">
-							<h2 class="post-title"><br>DISTRIBUTION OF REPORT CARD TOMORROW (SEPT. 01, 2018) “SATURDAY<br></h2>
-							<h3 class="post-subtitle">TIME: 8:00AM-10:00AM<br></h3>
-						</a>
-						<p class="post-meta">Posted by&nbsp;<a href="#">MCCAI</a></p>
-					</div>
-					<hr>
-					<div class="post-preview">
-						<a href="#">
-							<h2 class="post-title">Enrollment is now going on!<br></h2>
-							<h3 class="post-subtitle">See you at Mizpah from Monday to Friday(8:00AM-4:00PM<br></h3>
-						</a>
-						<p class="post-meta">Posted by&nbsp;<a href="#">MCCAI on December 29, 2019</a></p>
-					</div>
-					<hr>
-					<div class="clearfix"></div>
+					<ul class="list-inline text-center">
+						<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+						<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+						<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
+					</ul>
+					<p class="text-muted copyright">Copyright&nbsp;©&nbsp;MIZPAH CHRISTIAN ACADEME 2019</p>
 				</div>
 			</div>
 		</div>
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-lg-8 mx-auto">
-						<ul class="list-inline text-center">
-							<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
-							<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
-							<li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
-						</ul>
-						<p class="text-muted copyright">Copyright&nbsp;©&nbsp;MIZPAH CHRISTIAN ACADEME 2019</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/clean-blog.js"></script>
-	</body>
-
-	</html>
+	</footer>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/clean-blog.js"></script>
+</body>
+<!-- Custom JS -->
+<script src="assets\js\content.js" charset="utf-8"></script>
+</html>
